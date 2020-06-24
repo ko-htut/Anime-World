@@ -23,7 +23,7 @@ class CreateSeasonsTable extends Migration
             $table->timestamps();
         });
     }
-
+    
     /**
      * Reverse the migrations.
      *
