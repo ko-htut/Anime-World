@@ -1,0 +1,62 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@import url('https://mmwebfonts.comquas.com/fonts/?font=zawgyi');
+.zawgyi{
+    font-family:Zawgyi-One;
+    overflow-wrap: break-word;
+}
+@-ms-viewport{
+  width: device-width;
+}
+.pagination{
+    display: inline-block;
+}
+.pagination li{
+    padding:10px;
+}
+.pagination li.active a {
+    color: #fff;
+    padding:10px;
+}
+.pagination li a {
+    color: #444;
+    
+    font-size: 1.2rem;
+    line-height: 30px;
+    padding: 8px 16px;
+    
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.stroke{
+    color: black;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   font-weight:bold;
+}
+.bg-title{
+    width:100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,595959+6,666666+12,474747+12,2b2b2b+25,2c2c2c+38,111111+53,1c1c1c+84,262626+100,131313+100&0+0,1+100 */
+background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(89,89,89,0.06) 6%, rgba(71,71,71,0.12) 12%, rgba(43,43,43,0.25) 25%, rgba(44,44,44,0.38) 38%, rgba(17,17,17,0.53) 53%, rgba(28,28,28,0.84) 84%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(89,89,89,0.06) 6%,rgba(71,71,71,0.12) 12%,rgba(43,43,43,0.25) 25%,rgba(44,44,44,0.38) 38%,rgba(17,17,17,0.53) 53%,rgba(28,28,28,0.84) 84%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(89,89,89,0.06) 6%,rgba(71,71,71,0.12) 12%,rgba(43,43,43,0.25) 25%,rgba(44,44,44,0.38) 38%,rgba(17,17,17,0.53) 53%,rgba(28,28,28,0.84) 84%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+}
+.max-lines {
+  display: block; /* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3.6em;
+  line-height: 1.8em;
+}
